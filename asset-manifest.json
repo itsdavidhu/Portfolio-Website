@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.86e885a3.css",
-    "main.js": "/Portfolio/static/js/main.776c68f9.js",
+    "main.css": "/Portfolio/static/css/main.a9cbfd16.css",
+    "main.js": "/Portfolio/static/js/main.9e2c7667.js",
     "static/js/787.2c1cee2b.chunk.js": "/Portfolio/static/js/787.2c1cee2b.chunk.js",
     "static/media/about.png": "/Portfolio/static/media/about.f74c13cf9f13c6b1f839.png",
     "static/media/background-white.png": "/Portfolio/static/media/background-white.79791d0d9291b87b4668.png",
@@ -11,12 +11,12 @@
     "static/media/shopify-chatbot.png": "/Portfolio/static/media/shopify-chatbot.a9d8e27ec30f8b3c1d0c.png",
     "static/media/stock-the-past.jpg": "/Portfolio/static/media/stock-the-past.7b3af26ce857f174d34c.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.86e885a3.css.map": "/Portfolio/static/css/main.86e885a3.css.map",
-    "main.776c68f9.js.map": "/Portfolio/static/js/main.776c68f9.js.map",
+    "main.a9cbfd16.css.map": "/Portfolio/static/css/main.a9cbfd16.css.map",
+    "main.9e2c7667.js.map": "/Portfolio/static/js/main.9e2c7667.js.map",
     "787.2c1cee2b.chunk.js.map": "/Portfolio/static/js/787.2c1cee2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86e885a3.css",
-    "static/js/main.776c68f9.js"
+    "static/css/main.a9cbfd16.css",
+    "static/js/main.9e2c7667.js"
   ]
 }
