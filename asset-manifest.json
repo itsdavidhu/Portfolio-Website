@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.86e885a3.css",
+    "main.js": "/Portfolio/static/js/main.ea425e19.js",
+    "static/js/787.2c1cee2b.chunk.js": "/Portfolio/static/js/787.2c1cee2b.chunk.js",
+    "static/media/about.png": "/Portfolio/static/media/about.f74c13cf9f13c6b1f839.png",
+    "static/media/background-white.png": "/Portfolio/static/media/background-white.79791d0d9291b87b4668.png",
+    "static/media/background-white-mobile.png": "/Portfolio/static/media/background-white-mobile.9bd06dea37dd4e030d7b.png",
+    "static/media/img_receipt-scanning-app.jpg": "/Portfolio/static/media/img_receipt-scanning-app.a2c5c432a89e835122b6.jpg",
+    "static/media/David_s_Resume.pdf": "/Portfolio/static/media/David_s_Resume.8b790310739dccb32e0c.pdf",
+    "static/media/shopify-chatbot.png": "/Portfolio/static/media/shopify-chatbot.a9d8e27ec30f8b3c1d0c.png",
+    "static/media/stock-the-past.jpg": "/Portfolio/static/media/stock-the-past.7b3af26ce857f174d34c.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.86e885a3.css.map": "/Portfolio/static/css/main.86e885a3.css.map",
+    "main.ea425e19.js.map": "/Portfolio/static/js/main.ea425e19.js.map",
+    "787.2c1cee2b.chunk.js.map": "/Portfolio/static/js/787.2c1cee2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86e885a3.css",
+    "static/js/main.ea425e19.js"
+  ]
+}
