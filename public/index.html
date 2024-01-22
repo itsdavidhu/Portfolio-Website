@@ -26,6 +26,45 @@
     -->
     <title>React App</title>
   </head>
+  
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+          sidemenu.style.right = "0";
+      }
+      function closemenu(){
+          sidemenu.style.right = "-150px";
+      }
+  </script>
+
+  <script src="https://kit.fontawesome.com/c53c16f93c.js" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        
+  <script>
+      var typed = new Typed(".auto-type", {
+          strings: ["Computer Scientist.", "Software Engineer.", "Developer.", "Student."],
+          typeSpeed: 100,
+          backSpeed: 100,
+          loop: true
+      })
+  </script>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>

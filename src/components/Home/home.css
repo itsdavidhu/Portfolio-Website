@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    background-color: #FFFFFF;
+    color: #4D7E3E
+  }
+  
+  #header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/background-white.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container{
+    padding: 5px 5%;
+  }
+  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .logo{
+    width: 150px;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 25px;
+  }
+  
+  nav ul li a{
+    color: #4D7E3E;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+  }
+  
+  nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #E37E7A;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
+  
+  nav ul li a:hover::after{
+    width: 100%;
+  }
+  
+  .header-txt{
+    margin-top: 10%;
+  }
+  
+  .header-txt h1{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 55px;
+  }
+
+  nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    right: 107px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px){
+    #header{
+        background-image: url(./images/background-white-mobile.png);
+    }
+  
+    .header-txt{
+        margin-top: 125%;
+        color: #FFFFFF;
+    }
+  
+    .header-txt h1{
+        font-size: 25px;
+    }
+  
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+  
+    nav ul{
+        background-color: #4D7E3E;
+        position: fixed;
+        top: 0;
+        right: -150px;
+        width: 150px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+  
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+  
+    nav ul li a{
+        color: #FFFFFF;
+    }
+  
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        right: 107px;
+        cursor: pointer;
+        color: #ffffff;
+    }
+}
