@@ -19,7 +19,7 @@ function Home() {
                 <FontAwesomeIcon icon="fa-solid fa-bars" />
             </nav>
             <div className="header-txt">
-                <h1>Hey! I'm David Hu. </h1>
+                <h1>Hey! I'm David Hu.</h1>
                 <h1>I'm a
                     <TypeWriter 
                     options={{
@@ -27,12 +27,9 @@ function Home() {
                         autoStart: true,
                         loop: true,
                     }}
-                    onInit={(typewriter) => {
-                    }}
                     />
                 </h1>
             </div>
-      
         </div>
     </div>
     )

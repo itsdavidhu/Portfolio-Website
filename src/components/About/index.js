@@ -1,7 +1,14 @@
 import about from './images/about.png';
 import './about.css';
+import { useState } from 'react';
 
 function About() {
+
+    const [toggleState, setToggleState] = useState(1);
+    const toggleTab = (index) => {
+        setToggleState(index);
+    }
+
     return (
     <div id="about">
         <div className="container">
@@ -18,23 +25,23 @@ function About() {
                     guitar.</p>
 
                     <div className="tab-titles">
-                        <p className="tab-links active-link" onClick="opentab('skills')">Skills</p>
-                        <p className="tab-links" onClick="opentab('experience')">Experience</p>
-                        <p className="tab-links" onClick="opentab('education')">Education</p>
+                        <p className={toggleState === 1 ? "tab-links active-link" : "tab-links"} onClick={() => toggleTab(1)}>Skills</p>
+                        <p className={toggleState === 2 ? "tab-links active-link" : "tab-links"} onClick={() => toggleTab(2)}>Experience</p>
+                        <p className={toggleState === 3 ? "tab-links active-link" : "tab-links"} onClick={() => toggleTab(3)}>Education</p>
                     </div>
-                    <div className="tab-contents active-tab" id="skills">
+                    <div className={toggleState === 1 ? "tab-contents active-tab" : "tab-contents"} id="skills">
                         <ul>
                             <li><span>Languages</span><br/>Python, Java, C, JavaScript, HTML/CSS, Bash, Assembly, and Swift</li>
                             <li><span>Frameworks/Technologies</span><br/>Git, IBM Cloud, JavaFX, Swift UI, and Pygame</li>
                         </ul>
                     </div>
-                    <div className="tab-contents" id="experience">
+                    <div className={toggleState === 2 ? "tab-contents active-tab" : "tab-contents"} id="experience">
                         <ul>
                             <li><span>May 2022 - Sep 2022</span><br/>York University - Telephone Inteviewer</li>
                             <li><span>Jul 2022 - Aug 2022</span><br/>Three-Flavors Kids' Club - Computer Camp Instructor</li>
                         </ul>
                     </div>
-                    <div className="tab-contents" id="education">
+                    <div className={toggleState === 3 ? "tab-contents active-tab" : "tab-contents"} id="education">
                         <ul>
                             <li><span>2021 - 2025</span><br/>University of Toronto - Computer Science Specialist, Mathematics Minor</li>
                             <li><span>2017 - 2021</span><br/>Vaughan Secondary School</li>
