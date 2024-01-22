@@ -75,13 +75,9 @@
     font-size: 55px;
   }
 
-  nav ul .fa-solid{
-    position: absolute;
-    top: 25px;
-    right: 107px;
-    cursor: pointer;
-    color: #ffffff;
-}
+  nav .fa {
+    display: none;
+  }
 
 /* Mobile */
 @media only screen and (max-width: 600px){
@@ -98,12 +94,12 @@
         font-size: 25px;
     }
   
-    nav .fa-solid{
+    nav .fa{
         display: block;
         font-size: 25px;
     }
   
-    nav ul{
+    nav #inactive{
         background-color: #4D7E3E;
         position: fixed;
         top: 0;
@@ -114,6 +110,18 @@
         z-index: 2;
         transition: right 0.5s;
     }
+
+    nav #active{
+      background-color: #4D7E3E;
+      position: fixed;
+      top: 0;
+      right: 0px;
+      width: 150px;
+      height: 100vh;
+      padding-top: 50px;
+      z-index: 2;
+      transition: right 0.5s;
+  }
   
     nav ul li{
         display: block;
@@ -124,7 +132,7 @@
         color: #FFFFFF;
     }
   
-    nav ul .fa-solid{
+    nav ul .fa{
         position: absolute;
         top: 25px;
         right: 107px;

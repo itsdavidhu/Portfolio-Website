@@ -44,10 +44,6 @@
     color: #FFFFFF;
     border-color: #FFFFFF;
   }
-  
-  nav .fa-solid{
-    display: none;
-  }
 
 /* Mobile */
 @media only screen and (max-width: 600px){

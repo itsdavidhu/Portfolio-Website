@@ -1,22 +1,30 @@
 import TypeWriter from 'typewriter-effect';
 import logo from './images/logo-color.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './home.css';
+import { useState } from 'react';
 
 function Home() {
-    return(
+
+    const [toggleState, setToggleState] = useState(false);
+    const toggleTab = () => {
+        setToggleState(toggleState => !toggleState);
+    }
+
+    let toggleBar = toggleState ? 'active' : 'inactive';
+
+    return (
     <div id="header">
         <div className="container">
             <nav>
                 <a href="#header"><img src={logo} alt="logo" className="logo"/></a>
-                <ul id="sidemenu">
+                <ul id={toggleBar}>
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <FontAwesomeIcon icon="fa-solid fa-xmark" />
+                    <i className="fa fa-xmark" onClick={toggleTab}></i>
                 </ul>
-                <FontAwesomeIcon icon="fa-solid fa-bars" />
+                <i className="fa fa-bars" onClick={toggleTab}></i>
             </nav>
             <div className="header-txt">
                 <h1>Hey! I'm David Hu.</h1>
