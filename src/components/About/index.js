@@ -37,8 +37,8 @@ function About() {
                     </div>
                     <div className={toggleState === 2 ? "tab-contents active-tab" : "tab-contents"} id="experience">
                         <ul>
-                            <li><span>May 2022 - Sep 2022</span><br/>York University - Telephone Inteviewer</li>
-                            <li><span>Jul 2022 - Aug 2022</span><br/>Three-Flavors Kids' Club - Computer Camp Instructor</li>
+                            <li><span>May 2022 - Sep 2022</span><br/>York University - Data Entry Specialist</li>
+                            <li><span>Jul 2022 - Aug 2022</span><br/>Three-Flavors Kids' Club - Python Instructor</li>
                         </ul>
                     </div>
                     <div className={toggleState === 3 ? "tab-contents active-tab" : "tab-contents"} id="education">
