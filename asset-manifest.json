@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Portfolio-Website/static/css/main.d6b8ab85.css",
-    "main.js": "/Portfolio-Website/static/js/main.073ce3ea.js",
+    "main.js": "/Portfolio-Website/static/js/main.acd90e04.js",
     "static/js/787.2c1cee2b.chunk.js": "/Portfolio-Website/static/js/787.2c1cee2b.chunk.js",
     "static/media/about.png": "/Portfolio-Website/static/media/about.f74c13cf9f13c6b1f839.png",
     "static/media/background-white.png": "/Portfolio-Website/static/media/background-white.79791d0d9291b87b4668.png",
     "static/media/background-white-mobile.png": "/Portfolio-Website/static/media/background-white-mobile.9bd06dea37dd4e030d7b.png",
     "static/media/img_receipt-scanning-app.jpg": "/Portfolio-Website/static/media/img_receipt-scanning-app.a2c5c432a89e835122b6.jpg",
-    "static/media/David_s_Resume.pdf": "/Portfolio-Website/static/media/David_s_Resume.63943bb5ab6264a2457d.pdf",
+    "static/media/David_s_Resume.pdf": "/Portfolio-Website/static/media/David_s_Resume.6c11cd9770fcef348c01.pdf",
     "static/media/shopify-chatbot.png": "/Portfolio-Website/static/media/shopify-chatbot.a9d8e27ec30f8b3c1d0c.png",
     "static/media/stock-the-past.jpg": "/Portfolio-Website/static/media/stock-the-past.7b3af26ce857f174d34c.jpg",
     "index.html": "/Portfolio-Website/index.html",
     "main.d6b8ab85.css.map": "/Portfolio-Website/static/css/main.d6b8ab85.css.map",
-    "main.073ce3ea.js.map": "/Portfolio-Website/static/js/main.073ce3ea.js.map",
+    "main.acd90e04.js.map": "/Portfolio-Website/static/js/main.acd90e04.js.map",
     "787.2c1cee2b.chunk.js.map": "/Portfolio-Website/static/js/787.2c1cee2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6b8ab85.css",
-    "static/js/main.073ce3ea.js"
+    "static/js/main.acd90e04.js"
   ]
 }
