@@ -31,12 +31,13 @@ function About() {
                     </div>
                     <div className={toggleState === 1 ? "tab-contents active-tab" : "tab-contents"} id="skills">
                         <ul>
-                            <li><span>Languages</span><br/>Python, Java, C, JavaScript, HTML/CSS, Bash, Assembly, and Swift</li>
-                            <li><span>Frameworks/Technologies</span><br/>Git, IBM Cloud, JavaFX, Swift UI, and Pygame</li>
+                            <li><span>Languages</span><br/>Python, Java, C, JavaScript, HTML/CSS, SQL, Bash, Assembly, and Swift</li>
+                            <li><span>Frameworks/Technologies</span><br/>Git, React, TensorFlow, Microsoft Azure, IBM Cloud, JavaFX, Swift UI, and Pygame</li>
                         </ul>
                     </div>
                     <div className={toggleState === 2 ? "tab-contents active-tab" : "tab-contents"} id="experience">
                         <ul>
+                            <li><span>Jan 2024 - Present</span><br/>M2M Tech - Machine Learning Intern</li>
                             <li><span>May 2022 - Sep 2022</span><br/>York University - Data Entry Specialist</li>
                             <li><span>Jul 2022 - Aug 2022</span><br/>Three-Flavors Kids' Club - Python Instructor</li>
                         </ul>
