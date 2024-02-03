@@ -14,7 +14,7 @@ function Portfolio() {
                     <div className="layer">
                         <h3>Shopify Chatbot</h3>
                         <p>Shopify integrated customer service chatbot that provides order 
-                        tracking using Python Webhooks and answers FAQ. Created with IBM Cloud.</p>
+                        tracking. Created with IBM Cloud.</p>
                         <a href="https://shopidollookbook.com/"><i className="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
