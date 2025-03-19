@@ -25,24 +25,25 @@ function About() {
                     guitar.</p>
 
                     <div className="tab-titles">
-                        <p className={toggleState === 1 ? "tab-links active-link" : "tab-links"} onClick={() => toggleTab(1)}>Skills</p>
-                        <p className={toggleState === 2 ? "tab-links active-link" : "tab-links"} onClick={() => toggleTab(2)}>Experience</p>
+                        <p className={toggleState === 1 ? "tab-links active-link" : "tab-links"} onClick={() => toggleTab(1)}>Experience</p>
+                        <p className={toggleState === 2 ? "tab-links active-link" : "tab-links"} onClick={() => toggleTab(2)}>Skills</p>
                         <p className={toggleState === 3 ? "tab-links active-link" : "tab-links"} onClick={() => toggleTab(3)}>Education</p>
                     </div>
-                    <div className={toggleState === 1 ? "tab-contents active-tab" : "tab-contents"} id="skills">
+                    <div className={toggleState === 1 ? "tab-contents active-tab" : "tab-contents"} id="experience">
+                        <ul>
+                            <li><span>May 2025 - Jul 2025</span><br/>Amazon Web Services (AWS) - Incoming Software Development Engineer Intern</li>
+                            <li><span>Sept 2024 - Dec 2024</span><br/>Knowlecy Technologies Inc. - Software Engineer</li>
+                            <li><span>May 2024 - Dec 2024</span><br/>Mold-Masters Limited - Information Technology Intern</li>
+                            <li><span>May 2022 - Sep 2022</span><br/>York University - Telephone Interviewer</li>
+                            <li><span>Jul 2022 - Aug 2022</span><br/>Three-Flavors Kids' Club - Computer Camp Instructor</li>
+                        </ul>
+                    </div>
+                    <div className={toggleState === 2 ? "tab-contents active-tab" : "tab-contents"} id="skills">
                         <ul>
                             <li><span>Languages</span><br/>Python, Java, C, SQL, JavaScript, HTML/CSS, Bash, Assembly</li>
                             <li><span>Frameworks</span><br/>React, Flask, JavaFX, JUnit, pytest, Pygame</li>
                             <li><span>Developer Tools</span><br/>Git, Microsoft Azure, IBM Cloud, Linux, PostgreSQL, VS Code</li>
                             <li><span>Libraries</span><br/>pandas, NumPy, Matplotlib, scikit-learn, OpenCV, TensorFlow</li>
-                        </ul>
-                    </div>
-                    <div className={toggleState === 2 ? "tab-contents active-tab" : "tab-contents"} id="experience">
-                        <ul>
-                            <li><span>May 2024 - Present</span><br/>Mold-Masters Limited - Information Technology Intern</li>
-                            <li><span>Jan 2024 - Mar 2024</span><br/>M2M Tech - Machine Learning Intern</li>
-                            <li><span>May 2022 - Sep 2022</span><br/>York University - Data Entry Specialist</li>
-                            <li><span>Jul 2022 - Aug 2022</span><br/>Three-Flavors Kids' Club - Python Instructor</li>
                         </ul>
                     </div>
                     <div className={toggleState === 3 ? "tab-contents active-tab" : "tab-contents"} id="education">
