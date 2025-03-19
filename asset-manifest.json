@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.34201ebf.css",
-    "main.js": "/Portfolio-Website/static/js/main.ebfd2d58.js",
-    "static/js/453.906b0208.chunk.js": "/Portfolio-Website/static/js/453.906b0208.chunk.js",
+    "main.css": "/Portfolio-Website/static/css/main.d6b8ab85.css",
+    "main.js": "/Portfolio-Website/static/js/main.02817a8f.js",
+    "static/js/787.2c1cee2b.chunk.js": "/Portfolio-Website/static/js/787.2c1cee2b.chunk.js",
     "static/media/PokeCardtel.png": "/Portfolio-Website/static/media/PokeCardtel.bfa52bd43039e94519b9.png",
     "static/media/about.png": "/Portfolio-Website/static/media/about.f74c13cf9f13c6b1f839.png",
     "static/media/background-white.png": "/Portfolio-Website/static/media/background-white.79791d0d9291b87b4668.png",
     "static/media/background-white-mobile.png": "/Portfolio-Website/static/media/background-white-mobile.9bd06dea37dd4e030d7b.png",
-    "static/media/David_s_Resume.pdf": "/Portfolio-Website/static/media/David_s_Resume.f1048c6d0492219e1abe.pdf",
+    "static/media/David_s_Resume.pdf": "/Portfolio-Website/static/media/David_s_Resume.a937fa172a79c300abdd.pdf",
     "static/media/stock-the-past.jpg": "/Portfolio-Website/static/media/stock-the-past.7b3af26ce857f174d34c.jpg",
     "static/media/lol-data.png": "/Portfolio-Website/static/media/lol-data.7bc2853831c06881c94a.png",
     "index.html": "/Portfolio-Website/index.html",
-    "main.34201ebf.css.map": "/Portfolio-Website/static/css/main.34201ebf.css.map",
-    "main.ebfd2d58.js.map": "/Portfolio-Website/static/js/main.ebfd2d58.js.map",
-    "453.906b0208.chunk.js.map": "/Portfolio-Website/static/js/453.906b0208.chunk.js.map"
+    "main.d6b8ab85.css.map": "/Portfolio-Website/static/css/main.d6b8ab85.css.map",
+    "main.02817a8f.js.map": "/Portfolio-Website/static/js/main.02817a8f.js.map",
+    "787.2c1cee2b.chunk.js.map": "/Portfolio-Website/static/js/787.2c1cee2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34201ebf.css",
-    "static/js/main.ebfd2d58.js"
+    "static/css/main.d6b8ab85.css",
+    "static/js/main.02817a8f.js"
   ]
 }
